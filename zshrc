@@ -4,6 +4,8 @@ alias zshrc="vim ~/.zshrc"
 alias python="python3"
 alias pip="pip3"
 alias l="ls -la"
+alias sync_configs="cp ~/.zshrc ~/PersonalConfigsAndScripts/zshrc;cp ~/.vimrc ~/PersonalConfigsAndScripts/vimrc;cd ~/PersonalConfigsAndScripts; git commit -a;git push"
+
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
