@@ -1,4 +1,4 @@
-""""VIMRC 
+""""VIMRC Matthew Rizaldi
 set number relativenumber " enable line numbers
 syntax enable           " enable syntax highlighting
 set wrap                " wrap lines
