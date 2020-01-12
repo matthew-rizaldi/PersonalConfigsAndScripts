@@ -1,11 +1,13 @@
 #Aliases
+alias hardware_simulator="bash -c '/Users/riz/nand2tetris_projects/tools/HardwareSimulator.sh'"
 alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc"
 alias python="python3"
 alias pip="pip3"
 alias l="ls -la"
 alias sync_configs="cp ~/.zshrc ~/PersonalConfigsAndScripts/zshrc;cp ~/.vimrc ~/PersonalConfigsAndScripts/vimrc;cd ~/PersonalConfigsAndScripts; git commit -a;git push"
-
+alias killtouchbar="killall ControlStrip"
+alias updatezshrc="cp ~/.zshrc 
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
