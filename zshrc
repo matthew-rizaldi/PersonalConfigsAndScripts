@@ -10,6 +10,12 @@ alias killtouchbar="killall ControlStrip"
 alias updatezshrc="cp ~/.zshrc ~/PersonalConfigsAndScripts/zshrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
 alias updatevimrc="cp ~/.vimrc ~/PersonalConfigsAndScripts/vimrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
 
+#zsh syntax highlighting install
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
 
 # Basic auto/tab complete:
 autoload -U compinit
