@@ -10,13 +10,6 @@ alias killtouchbar="killall ControlStrip"
 alias updatezshrc="cp ~/.zshrc ~/PersonalConfigsAndScripts/zshrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
 alias updatevimrc="cp ~/.vimrc ~/PersonalConfigsAndScripts/vimrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
 
-#zsh syntax highlighting install
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -36,3 +29,5 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
 PROMPT=' %B%F{240}%~ %f%b: '
+source /home/rizzy/gambl/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/rizzy/gambl/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
