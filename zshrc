@@ -34,3 +34,6 @@ PROMPT=' %B%F{240}%~ %f%b: '
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+#Automatically start pyenv
+eval "$(pyenv init -)"
+
