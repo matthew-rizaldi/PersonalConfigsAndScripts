@@ -1,5 +1,5 @@
 #Aliases
-alias icloud="cd /Users/elmo/Library/Mobile Documents/com~apple~CloudDocs" 
+alias icloud="cd /Users/elmo/Library/Mobile\ Documents/com~apple~CloudDocs" 
 alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc"
 alias l="ls -la"
