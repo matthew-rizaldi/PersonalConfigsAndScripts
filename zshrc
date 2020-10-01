@@ -1,5 +1,5 @@
 #Aliases
-alias hardware_simulator="bash -c '/Users/riz/nand2tetris_projects/tools/HardwareSimulator.sh'"
+alias icloud="cd /Users/elmo/Library/Mobile Documents/com~apple~CloudDocs" 
 alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc"
 alias l="ls -la"
@@ -7,6 +7,7 @@ alias sync_configs="cp ~/.zshrc ~/PersonalConfigsAndScripts/zshrc;cp ~/.vimrc ~/
 alias killtouchbar="killall ControlStrip"
 alias updatezshrc="cp ~/.zshrc ~/PersonalConfigsAndScripts/zshrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
 alias updatevimrc="cp ~/.vimrc ~/PersonalConfigsAndScripts/vimrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
+alias templeServer="ssh tuj43791@cis-linux2.temple.edu"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
