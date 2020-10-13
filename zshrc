@@ -8,6 +8,7 @@ alias killtouchbar="killall ControlStrip"
 alias updatezshrc="cp ~/.zshrc ~/PersonalConfigsAndScripts/zshrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
 alias updatevimrc="cp ~/.vimrc ~/PersonalConfigsAndScripts/vimrc; cd ~/PersonalConfigsAndScripts; git commit -a; git push;" 
 alias templeServer="ssh tuj43791@cis-linux2.temple.edu"
+alias raylib="cc firstWindow.c `pkg-config --libs --cflags raylib`"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
